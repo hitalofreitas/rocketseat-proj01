@@ -1,0 +1,57 @@
+/* Separar e organizar a pagina por sessões 
+Quanto mais especifico for casa sessão melhor para encontrar o que vai se tratar no css
+*/
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+}
+/* o #hero está especificando para o id da div no html
+A margin com 4 elementos sendo o top com 0 os laterais no auto e o de baixo com 72px */
+#Hero{
+  width: 592px;
+  margin: 0 auto 72px;
+}
+/* nesse caso estou sendo espefico a imagen dentro do hero */
+#hero img{
+  margin-bottom: 72px;
+}
+/* configuração do formato do texto h1 */
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+/* especificando o tratanto do span dentro do ha */
+h1 span {
+  font-weight: bold;
+}
+/* especificando o tratando da cor do span no "a" */
+span, a {
+  color: #ff9900
+}
+/* propriedades do "p" */
+p, #footer {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+/* propriedades do footer com espaçamento entre os itens "a" */
+#footer a + a {
+  margin-left: 28px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  border: 1px #ECEFF2 solid;
+  margin: 0 auto 8px; 
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
